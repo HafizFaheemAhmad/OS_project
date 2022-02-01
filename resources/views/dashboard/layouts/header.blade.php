@@ -282,10 +282,18 @@
                             data-feather="settings"></i> Settings</a><a class="dropdown-item"
                         href="page-pricing.html"><i class="me-50" data-feather="credit-card"></i>
                         Pricing</a><a class="dropdown-item" href="page-faq.html"><i class="me-50"
-                            data-feather="help-circle"></i> FAQ</a><a class="dropdown-item"
-                        href="auth-login-cover.html"><i class="me-50" data-feather="power"></i> Logout</a>
-                </div>
+                            data-feather="help-circle"></i> FAQ</a>
+                    <a class="dropdown-item" href="{{ url('login') }}"
+                        onclick="event.preventDefault(); document.getElementById('frm-logout').submit();"><i
+                            class="me-50" data-feather="power"></i> Logout</a>
+                    <form id="frm-logout" action="{{ url('logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
             </li>
-        </ul>
+
+
+    </div>
+    </li>
+    </ul>
     </div>
 </nav>

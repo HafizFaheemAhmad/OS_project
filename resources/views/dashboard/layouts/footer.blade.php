@@ -1,5 +1,3 @@
-<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
-    data-menu="vertical-menu-modern" data-col="">
     <footer class="footer footer-static footer-light">
         <div class="card-body">
 
@@ -19,5 +17,5 @@
                     target="_blank">Pixinvent</a><span class="d-none d-sm-inline-block">, All rights
                     Reserved</span></span><span class="float-md-end d-none d-md-block">Hand-crafted & Made with<i
                     data-feather="heart"></i></span></p>
+        <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
     </footer>
-    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>

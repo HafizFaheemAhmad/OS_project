@@ -296,6 +296,7 @@
 @push('js')
     <script src="{{ URL::asset('/js/chart.min.js') }}"></script>
     <script src="{{ URL::asset('/js/flatpickr.min.js') }}"></script>
+    <script src="{{ URL::asset('/js/apexcharts.min.js') }}"></script>
     <script src="{{ URL::asset('/js/chart-chartjs.js') }}"></script>
 
 @endpush
